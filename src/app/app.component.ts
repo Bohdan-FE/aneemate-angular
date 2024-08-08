@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from "./home/home.component";
+import { MeetTheCharactersComponent } from "./meet-the-characters/meet-the-characters.component";
+import { ClipPathesComponent } from "./clip-pathes/clip-pathes.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

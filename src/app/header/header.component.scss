@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1670.29px;
+    width: 100%;
+    padding-inline: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 32.4px;
+}
+
+.burger_btn {
+    width: 32.55px;
+    height: 20.70px;
+    position: relative;
+    span {
+        position: absolute;
+        display: block;
+        background-color: var(--white);
+        height: 3px;
+        &:nth-child(1) {
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        &:nth-child(2) {
+            top: 50%;
+            left: 0;
+            width: 25px;
+            transform: translateY(-50%);
+        }
+
+        &:nth-child(3) {
+            bottom: 0;
+            left: 0;
+            width: 13.3px;
+        }
+    }
+}

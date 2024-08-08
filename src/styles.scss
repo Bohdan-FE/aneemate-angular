@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/styles/init-css';
+
+:root {
+--white: #fff;
+--black: #000000;
+--yellow-main: #FFE500;
+--yellow-secondary: #FFCD00;
+}
+
+@font-face {
+    font-family: LilitaOne;
+    src: url('./assets/styles/fonts/LilitaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Oxanium;
+    src: url('./assets/styles/fonts/Oxanium-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Oxanium;
+    src: url('./assets/styles/fonts/Oxanium-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Oxanium;
+    src: url('./assets/styles/fonts/Oxanium-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+body{
+font-family: Oxanium;
+font-weight: 500;
+color: var(--white);
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

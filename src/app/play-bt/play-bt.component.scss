@@ -1,0 +1,70 @@
+.btn {
+    position: absolute;
+    bottom: 171.7px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(255, 205, 0, 0) 0%, rgba(255, 205, 0, 1) 80%);
+    width: 65.7px;
+    height: 65.7px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+
+    &:hover, &:focus{
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+    .play_icon{
+        fill: var(--yellow-main);
+    }
+    }
+
+
+}
+
+.play_icon {
+    transform: translateX(15.8%);
+    fill: var(--white);
+}
+
+.btn_ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--yellow-main);
+    animation: ripple infinite;
+    animation-duration: 4s;
+    animation-delay: 0s;
+
+    &:nth-child(2) {
+        animation-delay: 1s;
+    }
+
+    &:nth-child(3) {
+    animation-delay: 2s;
+    }
+
+    &:nth-child(4) {
+    animation-delay: 3s;
+    }
+
+    &:nth-child(5) {
+        animation-delay: 4s;
+    }
+}
+
+@keyframes ripple {
+    from {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.65);
+        opacity: 0;
+    }
+}

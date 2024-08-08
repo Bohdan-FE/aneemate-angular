@@ -1,0 +1,105 @@
+.section {
+    position: relative;
+    height: 1080px;
+    width: 100%;
+    background-image: url(../../assets/styles/img/BG-home.jpg);
+}
+
+.logo {
+    position: absolute;
+    top: 387px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 51.94%;
+}
+
+.bird {
+    position: absolute;
+    right: 11.6%;
+    width: 74.15%;
+}
+
+.people {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80.41%;
+}
+
+.text_container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 298px;
+
+    p {
+        color: var(--white);
+        font-weight: 700;
+        text-align: center;
+
+        &:nth-child(1) {
+            font-size: 24px;
+        }
+
+        &:nth-child(2) {
+            font-size: 32px;
+        }
+    }
+}
+
+.company_logos {
+    position: absolute;
+    bottom: 93px;
+    right: 131px;
+    display: flex;
+
+    img {
+        &:nth-child(1) {
+            margin-right: 9.36px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 3.57px;
+        }
+
+        &:nth-child(3) {
+            margin-right: 20.83px;
+        }
+
+        &:nth-child(4) {
+            margin-right: 30.16px;
+        }
+    }
+}
+
+
+.mause_container {
+    position: absolute;
+    bottom: 194px;
+    right: 156px;
+    transform-origin: right bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    transform: rotate(90deg);
+}
+
+.mouse_icon{
+  transform: rotate(-90deg) translateX(2px);
+}
+
+.scroll_down_text{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;  
+}
+
+.border{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+    z-index: 2;
+}
