@@ -4,11 +4,13 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from "./home/home.component";
 import { MeetTheCharactersComponent } from "./meet-the-characters/meet-the-characters.component";
 import { ClipPathesComponent } from "./clip-pathes/clip-pathes.component";
+import { TheStoryComponent } from "./the-story/the-story.component";
+import { HiddenIslandsComponent } from "./hidden-islands/hidden-islands.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent, TheStoryComponent, HiddenIslandsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

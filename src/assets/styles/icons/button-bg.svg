@@ -1,46 +1,73 @@
-<svg width="225" height="38" viewBox="0 0 225 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="272" height="58" viewBox="0 0 272 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_45_866)">
+<path d="M10 40L23.0565 10.5H255.028L261.992 18.3353L248.5 47.5H16.3106L10 40Z" fill="#FFE500"/>
+</g>
+<path d="M10.4963 40.1L23.5528 10.5H254.029L260.992 18.3353L247.5 47.5H16.807L10.4963 40.1Z" fill="url(#paint0_linear_45_866)"/>
+<path d="M10.0389 39.8982L9.91214 40.1855L10.1159 40.4244L16.4265 47.8244L16.5762 48H16.807H247.5H247.82L247.954 47.7099L261.446 18.5452L261.583 18.248L261.366 18.0031L254.402 10.1679L254.253 10H254.029H23.5528H23.2269L23.0953 10.2982L10.0389 39.8982Z" stroke="white" stroke-opacity="0.4"/>
+<mask id="mask0_45_866" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="252" height="38">
+<path d="M10 40L23.0565 10.5H255.028L261.992 18.3353L248.5 47.5H16.3106L10 40Z" fill="#FFE500"/>
+</mask>
+<g mask="url(#mask0_45_866)">
 <g opacity="0.3">
 <g style="mix-blend-mode:overlay">
-<path d="M149.308 45.5L170.308 0.5H180.308L159.308 46.5L149.308 45.5Z" fill="black"/>
+<path d="M159.308 55.5L180.308 10.5H190.308L169.308 56.5L159.308 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M165 45.5L186 0.5H196L175 46.5L165 45.5Z" fill="black"/>
+<path d="M175 55.5L196 10.5H206L185 56.5L175 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M181 45.5L202 0.5H212L191 46.5L181 45.5Z" fill="black"/>
+<path d="M190.693 55.5L211.693 10.5H221.693L200.693 56.5L190.693 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M197 45.5L218 0.5H228L207 46.5L197 45.5Z" fill="black"/>
+<path d="M206.385 55.5L227.385 10.5H237.385L216.385 56.5L206.385 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M133.308 45.5L154.308 0.5H164.308L143.308 46.5L133.308 45.5Z" fill="black"/>
+<path d="M222.078 55.5L243.078 10.5H253.078L232.078 56.5L222.078 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M117.308 45.5L138.308 0.5H148.308L127.308 46.5L117.308 45.5Z" fill="black"/>
+<path d="M237.77 55.5L258.77 10.5H268.77L247.77 56.5L237.77 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M101.308 45.5L122.308 0.5H132.308L111.308 46.5L101.308 45.5Z" fill="black"/>
+<path d="M143.308 55.5L164.308 10.5H174.308L153.308 56.5L143.308 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M85.3081 45.5L106.308 0.5H116.308L95.3081 46.5L85.3081 45.5Z" fill="black"/>
+<path d="M127.308 55.5L148.308 10.5H158.308L137.308 56.5L127.308 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M69.3081 45.5L90.3081 0.5H100.308L79.3081 46.5L69.3081 45.5Z" fill="black"/>
+<path d="M111.308 55.5L132.308 10.5H142.308L121.308 56.5L111.308 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M53.3081 45.5L74.3081 0.5H84.3081L63.3081 46.5L53.3081 45.5Z" fill="black"/>
+<path d="M95.3081 55.5L116.308 10.5H126.308L105.308 56.5L95.3081 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M37.3081 45.5L58.3081 0.5H68.3081L47.3081 46.5L37.3081 45.5Z" fill="black"/>
+<path d="M79.3081 55.5L100.308 10.5H110.308L89.3081 56.5L79.3081 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M21.3081 45.5L42.3081 0.5H52.3081L31.3081 46.5L21.3081 45.5Z" fill="black"/>
+<path d="M63.3081 55.5L84.3081 10.5H94.3081L73.3081 56.5L63.3081 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M5.30811 45.5L26.3081 0.5H36.3081L15.3081 46.5L5.30811 45.5Z" fill="black"/>
+<path d="M47.3081 55.5L68.3081 10.5H78.3081L57.3081 56.5L47.3081 55.5Z" fill="black"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<path d="M-10.6919 45.5L10.3081 0.5H20.3081L-0.691895 46.5L-10.6919 45.5Z" fill="black"/>
+<path d="M31.3081 55.5L52.3081 10.5H62.3081L41.3081 56.5L31.3081 55.5Z" fill="black"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M15.3081 55.5L36.3081 10.5H46.3081L25.3081 56.5L15.3081 55.5Z" fill="black"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<path d="M-0.691895 55.5L20.3081 10.5H30.3081L9.30811 56.5L-0.691895 55.5Z" fill="black"/>
 </g>
 </g>
+</g>
+<defs>
+<filter id="filter0_f_45_866" x="0" y="0.5" width="271.992" height="57" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_45_866"/>
+</filter>
+<linearGradient id="paint0_linear_45_866" x1="23.3362" y1="29" x2="192.646" y2="29" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE500"/>
+<stop offset="1" stop-color="#FFB800"/>
+</linearGradient>
+</defs>
 </svg>
