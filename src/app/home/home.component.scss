@@ -17,6 +17,7 @@
     position: absolute;
     right: 11.6%;
     width: 74.15%;
+    animation: birdAppear 0.8s ease-in-out;
 }
 
 .people {
@@ -24,6 +25,7 @@
     bottom: 0;
     left: 0;
     width: 80.41%;
+    animation: peopleAppear 0.8s ease-in-out;
 }
 
 .text_container {
@@ -72,7 +74,6 @@
     }
 }
 
-
 .mause_container {
     position: absolute;
     bottom: 194px;
@@ -102,4 +103,26 @@
     left: 0;
     transform: translateY(50%);
     z-index: 2;
+}
+
+@keyframes birdAppear {
+    from {
+        transform: translate(100%, -100%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes peopleAppear {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }

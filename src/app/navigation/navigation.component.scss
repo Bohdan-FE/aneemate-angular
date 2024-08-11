@@ -1,0 +1,43 @@
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    max-width: 1010px;
+    width: 100%;
+    padding-top: 147px;
+    padding-left: 216px;
+}
+
+.link_list {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+
+    li {
+        animation: appear 0.4s ease-in-out;
+
+        @for $i from 2 through 6 {
+            &:nth-child(#{$i}) {
+                animation-delay: (0.02s * ($i - 1));
+            }
+        }
+
+        a {
+            font-family: LilitaOne;
+            font-size: 96px;
+            line-height: 79%;
+            color: var(--yellow-main);
+        }
+    }
+}
+
+@keyframes appear {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}

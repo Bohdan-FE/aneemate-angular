@@ -16,4 +16,9 @@ import { HiddenIslandsComponent } from "./hidden-islands/hidden-islands.componen
 })
 export class AppComponent {
   title = 'qorpo-angular';
+  isMenuOpen = false
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen
+  }
 }

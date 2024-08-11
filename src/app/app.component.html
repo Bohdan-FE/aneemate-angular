@@ -1,8 +1,8 @@
 <div class="container">
-  <app-header />
-  <app-home />
-  <app-meet-the-characters />
-  <app-the-story />
-  <app-hidden-islands />
+  <app-header (toggleMenuEvent)="toggleMenu()"></app-header>
+  <app-home [isMenuOpen]="isMenuOpen"></app-home>
+  <app-meet-the-characters></app-meet-the-characters>
+  <app-the-story></app-the-story>
+  <app-hidden-islands></app-hidden-islands>
 </div>
 <app-clip-pathes />

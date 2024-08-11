@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 import { ButtonComponent } from '../button/button.component';
@@ -11,5 +11,9 @@ import { ButtonComponent } from '../button/button.component';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  @Output() toggleMenuEvent = new EventEmitter<boolean>()
+  
+  togleMenu() {
+    this.toggleMenuEvent.emit()
+  }
 }
