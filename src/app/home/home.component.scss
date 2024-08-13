@@ -3,6 +3,9 @@
     height: 1080px;
     width: 100%;
     background-image: url(../../assets/styles/img/BG-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .logo {
@@ -11,12 +14,13 @@
     left: 50%;
     transform: translateX(-50%);
     width: 51.94%;
+    animation: opacitiAnimation 0.8s ease-in-out;
 }
 
 .bird {
     position: absolute;
     right: 11.6%;
-    width: 74.15%;
+    width: 1126.5px;
     animation: birdAppear 0.8s ease-in-out;
 }
 
@@ -33,6 +37,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 298px;
+    animation: opacitiAnimation 0.8s ease-in-out;
 
     p {
         color: var(--white);
@@ -54,8 +59,10 @@
     bottom: 93px;
     right: 131px;
     display: flex;
+    animation: opacitiAnimation 0.8s ease-in-out;
 
     img {
+        animation: opacitiAnimation 0.8s ease-in-out;
         &:nth-child(1) {
             margin-right: 9.36px;
         }
@@ -86,17 +93,19 @@
     transform: rotate(90deg);
 }
 
-.mouse_icon{
-  transform: rotate(-90deg) translateX(2px);
+.mouse_icon {
+    transform: rotate(-90deg) translateX(2px);
+    animation: opacitiAnimation 0.8s ease-in-out;
 }
 
-.scroll_down_text{
+.scroll_down_text {
     color: var(--white);
     font-weight: 500;
-    font-size: 16px;  
+    font-size: 16px;
+    animation: opacitiAnimation 0.8s ease-in-out;
 }
 
-.border{
+.border {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -107,7 +116,7 @@
 
 @keyframes birdAppear {
     from {
-        transform: translate(100%, -100%);
+        transform: translate(100%, -50%);
     }
 
     to {
@@ -123,6 +132,16 @@
 
     to {
         transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes opacitiAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
         opacity: 1;
     }
 }

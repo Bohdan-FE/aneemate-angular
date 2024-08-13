@@ -4,6 +4,9 @@
     background-image: url('/assets/styles/img/hidden-island-bg.jpg');
     background-position: center;
     position: relative;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 }
 
 .block_wrapper {
@@ -17,8 +20,8 @@
 
 .text_container {
     background-size: cover;
-    -webkit-clip-path: url(#container-hidden-islainds);
-    clip-path: url(#container-hidden-islainds);
+    -webkit-clip-path: url(#container-hidden-islands);
+    clip-path: url(#container-hidden-islands);
     backdrop-filter: blur(10px);
     padding: 163px 61.9px 0 87.56px;
     background-image: url('../../assets/styles/icons/hidden-islands-bg-container.svg');
