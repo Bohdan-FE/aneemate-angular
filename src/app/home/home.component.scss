@@ -1,6 +1,7 @@
 .section {
     position: relative;
-    height: 1080px;
+    min-height: 1080px;
+    height: 100dvh;
     width: 100%;
     background-image: url(../../assets/styles/img/BG-home.jpg);
     background-size: cover;
@@ -10,7 +11,7 @@
 
 .logo {
     position: absolute;
-    top: 387px;
+    top: 35.84%;
     left: 50%;
     transform: translateX(-50%);
     width: 51.94%;
@@ -20,7 +21,7 @@
 .bird {
     position: absolute;
     right: 11.6%;
-    width: 1126.5px;
+    width: 58.672%;
     animation: birdAppear 0.8s ease-in-out;
 }
 
@@ -36,7 +37,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 298px;
+    bottom: 27.593%;
     animation: opacitiAnimation 0.8s ease-in-out;
 
     p {
@@ -45,55 +46,65 @@
         text-align: center;
 
         &:nth-child(1) {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
 
         &:nth-child(2) {
-            font-size: 32px;
+            font-size: 2rem;
         }
     }
 }
 
 .company_logos {
     position: absolute;
-    bottom: 93px;
-    right: 131px;
+    bottom: 8.61%;
+    right: 6.823%;
     display: flex;
     animation: opacitiAnimation 0.8s ease-in-out;
 
     img {
         animation: opacitiAnimation 0.8s ease-in-out;
+        height: 2.75rem;
         &:nth-child(1) {
+            width: 14.9375rem;
             margin-right: 9.36px;
         }
 
         &:nth-child(2) {
+            width: 4.875rem;
             margin-right: 3.57px;
         }
 
         &:nth-child(3) {
+            width: 6.75em;
             margin-right: 20.83px;
         }
 
         &:nth-child(4) {
+            width: 5.1875em;
             margin-right: 30.16px;
         }
+                &:nth-child(5) {
+                    width: 2em;
+                }
     }
 }
 
 .mause_container {
     position: absolute;
-    bottom: 194px;
-    right: 156px;
+    bottom: 17.96%;
+    right: 8.125%;
     transform-origin: right bottom;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 1.125rem;
     transform: rotate(90deg);
 }
 
 .mouse_icon {
+    width: 1.125rem;
+    height: 1.75rem;
     transform: rotate(-90deg) translateX(2px);
     animation: opacitiAnimation 0.8s ease-in-out;
 }
@@ -101,7 +112,7 @@
 .scroll_down_text {
     color: var(--white);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     animation: opacitiAnimation 0.8s ease-in-out;
 }
 

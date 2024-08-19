@@ -1,9 +1,9 @@
 .header {
     position: absolute;
-    top: 40px;
+    top: 2.5rem;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 1670.29px;
+    max-width: 87%;
     width: 100%;
     padding-inline: 16px;
     display: flex;
@@ -17,18 +17,18 @@
 .nav{
     display: flex;
     align-items: center;
-    gap: 32.4px;
+    gap: 2rem;
 }
 
 .burger_btn {
-    width: 32.55px;
-    height: 20.70px;
+    width: 2rem;
+    height: 1.294rem;
     position: relative;
     span {
         position: absolute;
         display: block;
         background-color: var(--white);
-        height: 3px;
+        height: 0.1875rem;
         &:nth-child(1) {
             top: 0;
             left: 0;
@@ -38,14 +38,14 @@
         &:nth-child(2) {
             top: 50%;
             left: 0;
-            width: 25px;
+            width: 1.5625rem;
             transform: translateY(-50%);
         }
 
         &:nth-child(3) {
             bottom: 0;
             left: 0;
-            width: 13.3px;
+            width: 0.83125rem;
         }
     }
 }

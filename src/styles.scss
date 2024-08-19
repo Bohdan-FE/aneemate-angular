@@ -31,6 +31,28 @@
     font-weight: 800;
 }
 
+// @media screen and (max-width: 2880px) {
+//     html {
+//         font-size: 24px;
+//     }
+// }
+
+// @media screen and (max-width: 2000px) {
+//     html {
+//         font-size: 16px;
+//     }
+// }
+
+// @media screen and (max-width: 1700px) {
+//     html {
+//         font-size: 14px;
+//     }
+// }
+
+html {
+    font-size: calc(16px + (100vw - 1920px) / 192);
+}
+
 body{
 font-family: Oxanium;
 font-weight: 500;
