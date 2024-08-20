@@ -12,10 +12,10 @@
 .block_wrapper {
     position: absolute;
     position: absolute;
-    top: 241.64px;
+    top: 22.374%;
     left: 7.526%;
-    width: 715.5px;
-    height: 627.36px;
+    width: 44.71875rem;
+    height: 39.21rem;
 }
 
 .text_container {
@@ -23,7 +23,7 @@
     -webkit-clip-path: url(#container-meet-the-caracters);
     clip-path: url(#container-meet-the-caracters);
     backdrop-filter: blur(10px);
-    padding: 163px 61.9px 0 87.56px;
+    padding: 10.1875rem 3.86875rem 0 5.4725rem;
     background-image: url('/assets/styles/icons/meet-the-characters-container.svg');
     height: 100%;
     width: 100%;
@@ -31,29 +31,35 @@
     flex-direction: column;
 
     p {
-        font-size: 18px;
-        line-height: 40px;
+        font-size: 1.125rem;
+        line-height: 2.5rem;
 
         &:nth-child(1) {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
 
         &:nth-child(2) {
-            margin-bottom: 43px;
+            margin-bottom: 2.6875rem;
         }
     }
 }
 
 .title_container {
     position: absolute;
-    top: -66.84px;
-    left: -67.82px;
-    width: 841.84px;
-    height: 180.95;
-    background-image: url('/assets/styles/icons/meet-the-characters-title-bg.svg');
+    top: -4.1775rem;
+    left: -4.23875rem;
+    width: 52.615rem;
+    height: 11.309375rem;
+    background-image: url('/assets/styles/icons/meet-the-characters-title-bg-min.svg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 2;
+    img {
+        height: 17.8125rem;
+        width: 19.8125rem;
+    }
 }
 
 .title {
@@ -62,15 +68,15 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(-2.08deg);
     font-family: LilitaOne;
-    font-size: 70px;
+    font-size: 4.375rem;
     letter-spacing: -1%;
     text-wrap: nowrap;
 }
 
 .creature {
     position: absolute;
-    top: -101.23px;
-    right: -169.89px;
+    top: -6.326875rem;
+    right: -10.618125rem;
 }
 
 .border {
