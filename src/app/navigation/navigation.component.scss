@@ -7,6 +7,10 @@
     width: 100%;
     padding-top: 9.1875rem;
     padding-left: 13.5rem;
+    @media (min-aspect-ratio: 1.77/1) {
+    padding-top: 7rem;
+    transform: scale(0.8);
+    }
 }
 
 .link_list {

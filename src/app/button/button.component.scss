@@ -1,19 +1,29 @@
 .shadow {
     position: relative;
-    filter: drop-shadow(0 0 4px #FFE500);
-    width: 183.6px;
-    height: 38px;
+    filter: drop-shadow(0 0 0.25rem #FFE500);
+    /* 4px = 0.25rem */
+    width: 11.475rem;
+    /* 183.6px = 11.475rem */
+    height: 2.375rem;
+    /* 38px = 2.375rem */
 
     .top_corner {
         position: absolute;
-        top: 2.63%;
-        left: 5.174%;
+        top: 1%;
+        /* 2.63% of 2.375rem */
+        left: 5%;
+        /* 5.174% of 11.475rem */
+        width: 0.46875rem;
+        height: 0.375rem;
     }
 
     .bottom_corner {
         position: absolute;
         bottom: 0;
-        right: 4.085%;
+        right: 5%;
+        /* 4.085% of 11.475rem */
+        width: 0.46875rem;
+        height: 0.375rem;
     }
 }
 
@@ -30,10 +40,13 @@
     &:hover,
     &:focus {
         background-color: #FFFFFF;
-        .button{
+
+        .button {
             color: #FFFFFF;
-            width: calc(100% - 4px);
-            height: calc(100% - 4px);
+            width: calc(100% - 0.25rem);
+            /* 4px = 0.25rem */
+            height: calc(100% - 0.25rem);
+            /* 4px = 0.25rem */
         }
     }
 }
@@ -42,9 +55,13 @@
     font-family: Oxanium;
     font-weight: 800;
     font-size: 1rem;
+    /* No conversion needed */
     line-height: 1.25rem;
-    width: calc(100% - 1px);
-    height: calc(100% - 1px);
+    /* No conversion needed */
+    width: calc(100% - 0.0625rem);
+    /* 1px = 0.0625rem */
+    height: calc(100% - 0.0625rem);
+    /* 1px = 0.0625rem */
     clip-path: url(#my-clip-path);
     background-image: url('../../assets/styles/img/btn-bg.jpg');
     background-position: center;
@@ -55,5 +72,5 @@
     justify-content: center;
     color: var(--black);
     transition: 0.2s ease;
-    text-wrap: nowrap;  
+    text-wrap: nowrap;
 }

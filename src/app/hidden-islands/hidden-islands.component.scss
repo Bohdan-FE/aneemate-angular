@@ -1,6 +1,6 @@
 .section {
     width: 100%;
-    min-height: 1080px;
+    min-height: 695px;
     height: 100dvh;
     background-image: url("/assets/styles/img/hidden-island-bg-min.jpg");
     background-position: center;
@@ -8,11 +8,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    scroll-snap-align: start;
 }
 
 .block_wrapper {
     position: absolute;
-    top: 16.92%;
+    top: calc(50% + 2rem);
+    transform: translateY(-50%);
     left: 7.526%;
     width: 44.72rem;
     height: 49.22rem;
@@ -22,7 +24,7 @@
     background-size: cover;
     -webkit-clip-path: url(#container-hidden-islands);
     clip-path: url(#container-hidden-islands);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0.625rem);
     padding: 10.19rem 3.87rem 0 5.47rem;
     background-image: url("../../assets/styles/icons/hidden-islands-bg-container.svg");
     height: 100%;

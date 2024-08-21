@@ -1,6 +1,6 @@
 .section {
     width: 100%;
-    min-height: 1080px;
+    min-height: 695px;
     height: 100dvh;
     background-image: url('/assets/styles/img/the-story-bg-min.jpg');
     background-position: left top;
@@ -11,7 +11,8 @@
 
 .block_wrapper {
     position: absolute;
-    top: 14.75rem;
+    top: calc(50% + 4rem);
+    transform: translateY(-50%);
     right: 7.37%;
     width: 44.72rem;
     height: 44.22rem;
@@ -82,7 +83,9 @@
     bottom: 5.3rem;
     left: 0.32%;
     transform: rotate(-10.37deg);
-    width: 1.12rem;
+    width: 21.5rem;
+    height: 21.5rem;
+    z-index: 21;
 }
 
 .border {
@@ -92,4 +95,39 @@
     left: 0;
     transform: translateY(50%) rotate(180deg) rotateY(180deg);
     z-index: 2;
+}
+
+.scroll_decor {
+    position: absolute;
+    top: 46.4815%;
+    left:calc(7.526% - 0.28125rem);
+    display: block;
+    width: 0.28125rem;
+    height: 120%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 20;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0.28125rem;
+        height: 5.25rem;
+        background-color: var(--yellow-main);
+        clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 96%);
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0.28125rem;
+        height: 11.28125rem;
+        background-color: var(--yellow-main);
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
+    }
 }

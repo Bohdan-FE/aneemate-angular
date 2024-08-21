@@ -50,13 +50,19 @@
 // }
 
 html {
-    font-size: calc(16px + (100vw - 1920px) / 192);
+    // font-size: calc(0.5px + (1vw + 1vh) / 2);
+    font-size: calc(16px + (100vw - 1920px) / 192 + (100vh - 1080px) / 192);;
+    // font-size: calc(16px + (100dvh - 1080px) / 108);
+    // @media (max-height: 1080px) {
+    //     font-size: calc(16px + (100dvh - 1080px) / 108);
+    // }
 }
 
 body{
 font-family: Oxanium;
 font-weight: 500;
 color: var(--white);
+overflow-x: hidden;
 }
 
 button {
