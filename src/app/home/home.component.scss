@@ -125,6 +125,13 @@
     z-index: 2;
 }
 
+.btn_container{
+    position: absolute;
+    bottom: 15.9%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @keyframes birdAppear {
     from {
         transform: translate(100%, -50%);

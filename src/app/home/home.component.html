@@ -7,7 +7,9 @@
         <p>SESONE ONE</p>
         <p>AVAILABLE SOON</p>
     </div>
-    <app-play-bt [hidden]="isMenuOpen" />
+    <div class="btn_container">
+        <app-play-bt [hidden]="isMenuOpen" />
+    </div>
     <div class="mause_container" [hidden]="isMenuOpen">
         <img class="mouse_icon" src="assets/styles/icons/mouse-icon.svg" alt="mouse-icon" [hidden]="isMenuOpen">
         <p class="scroll_down_text" [hidden]="isMenuOpen">SCROLL DOWN</p>

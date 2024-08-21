@@ -1,0 +1,65 @@
+.section {
+    width: 100%;
+    min-height: 695px;
+    height: 100dvh;
+    background-image: url('../../assets/styles/img/gameplay-section-bg-min.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title_container {
+    position: absolute;
+    top: 9.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 38.51rem;
+    height: 10.74rem;
+    background-image: url("../../assets/styles/icons/gameplay-title-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-2.08deg);
+    font-family: LilitaOne;
+    font-size: 4.375rem;
+    letter-spacing: -1%;
+    text-wrap: nowrap;
+}
+
+.btn_container{
+    position: absolute;
+    bottom: 26.9825rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.34rem;
+}
+
+.creature{
+    position: absolute;
+    right: 8.23%;
+    bottom: 7.037%;
+    width: 21.625rem;
+    height: 21.625rem;
+    transform: rotate(6.74deg);
+}
+
+.border {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%) rotate(180deg) rotateY(180deg);
+    z-index: 2;
+}

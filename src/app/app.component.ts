@@ -6,11 +6,12 @@ import { MeetTheCharactersComponent } from "./meet-the-characters/meet-the-chara
 import { ClipPathesComponent } from "./clip-pathes/clip-pathes.component";
 import { TheStoryComponent } from "./the-story/the-story.component";
 import { HiddenIslandsComponent } from "./hidden-islands/hidden-islands.component";
+import { GameplaySectionComponent } from "./gameplay-section/gameplay-section.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent, TheStoryComponent, HiddenIslandsComponent],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent, TheStoryComponent, HiddenIslandsComponent, GameplaySectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
