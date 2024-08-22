@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="see-more-icon" viewBox="0 0 29 29">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.000976562 0L28.999 0L28.999 28.3959L-0.000976562 28.3959L-0.000976562 0ZM21.7187 13.5185L14.3805 5.89623L12.9397 7.28334L19.6174 14.2195L12.9323 21.3142L14.3879 22.6858L21.7261 14.8978L22.3793 14.2046L21.7187 13.5185ZM8.99835 14.2221L12.7761 10.4443L16.5539 14.2221L12.7761 17.9999L8.99835 14.2221Z" fill="currentColor"/>
+    </symbol>
+</svg>

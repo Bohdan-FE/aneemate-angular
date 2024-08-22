@@ -1,0 +1,117 @@
+.section {
+    width: 100%;
+    min-height: 695px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url('../../assets/styles/img/IP-section-bg-min.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section_container{
+    margin: 0 auto;
+    padding-top: 23.5rem;
+    max-width: 101.875rem;
+}
+
+.title_container {
+    position: absolute;
+    top: 6.6875rem;
+    left: 4.625rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.8125rem;
+}
+
+.title_creature {
+    width: 13.3125rem;
+    height: 13.3125rem;
+}
+
+.title {
+    font-family: LilitaOne;
+    font-size: 8rem;
+    line-height: 8.125rem;
+}
+
+.btn_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.215rem;
+    column-gap: 4.11875rem;
+}
+
+.card_item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.625rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0.4);
+
+
+    img {
+        // width: 48.875rem;
+        width: 100%;
+    }
+}
+
+.card_description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.1875rem 2.0625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 229, 0, 0.8);
+    width: 100%;
+    height: 6.9375rem;
+
+    p {
+        color: var(--black);
+    }
+}
+
+.card_description_title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.see_more_container {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        p {
+            color: var(--white);
+        }
+
+        .see_more_icon {
+            color: var(--white);
+        }
+    }
+
+    p {
+        text-wrap: nowrap;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: color 0.3s ease;
+    }
+}
+
+.see_more_icon {
+    width: 1.8125rem;
+    height: 1.775rem;
+    color: var(--black);
+    transition: color 0.3s ease;
+    transform: translateY(-0.15rem);
+}
