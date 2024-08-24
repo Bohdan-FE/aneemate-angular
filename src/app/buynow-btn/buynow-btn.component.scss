@@ -1,0 +1,66 @@
+.shadow {
+    position: relative;
+    filter: drop-shadow(0 0 0.4rem #FFE500);
+    width: 22.21875rem;
+    height: 4.6875rem;
+   
+    .bottom_corner {
+        position: absolute;
+        bottom: 0;
+        right: 4.5%;
+        width: 0.79125rem;
+        height: 0.60875rem;
+    }
+}
+
+.button_container {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    clip-path: url(#my-clip-path);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+    
+
+    &:hover,
+    &:focus {
+        background-color: #FFFFFF;
+
+        .button {
+            color: #FFFFFF;
+            width: calc(100% - 0.25rem);
+            /* 4px = 0.25rem */
+            height: calc(100% - 0.25rem);
+            /* 4px = 0.25rem */
+        }
+    }
+}
+
+.button {
+    font-family: Oxanium;
+    font-weight: 800;
+    font-size: 2.5rem;
+    width: calc(100% - 0.0625rem);
+    height: calc(100% - 0.0625rem);
+    clip-path: url(#my-clip-path);
+    background-image: url('../../assets/styles/img/btn-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+    align-items: center;
+    color: #353535;
+    transition: 0.2s ease;
+    text-wrap: nowrap;
+    padding-left: 7.5rem;
+}
+
+.creature_img{
+    position: absolute;
+    top: -3rem;
+    left: -4.179375rem;
+    width: 13.3125rem;
+    height: 11.9375rem;
+}
