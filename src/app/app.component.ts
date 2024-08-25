@@ -8,11 +8,12 @@ import { TheStoryComponent } from "./the-story/the-story.component";
 import { HiddenIslandsComponent } from "./hidden-islands/hidden-islands.component";
 import { GameplaySectionComponent } from "./gameplay-section/gameplay-section.component";
 import { IpSectionComponent } from "./ip-section/ip-section.component";
+import { FollowUsSectionComponent } from "./follow-us-section/follow-us-section.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent, TheStoryComponent, HiddenIslandsComponent, GameplaySectionComponent, IpSectionComponent],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, MeetTheCharactersComponent, ClipPathesComponent, TheStoryComponent, HiddenIslandsComponent, GameplaySectionComponent, IpSectionComponent, FollowUsSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

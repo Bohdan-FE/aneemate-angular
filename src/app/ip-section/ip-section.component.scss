@@ -101,6 +101,7 @@
     position: relative;
     margin-bottom: 2.300625rem;
     transform: rotate(-4.56deg);
+    z-index: 4;
 
     img {
         position: absolute;
@@ -190,6 +191,14 @@
     bottom: 1.78875rem;
     right: 2.60125rem;
     width: 23.875rem;
+}
+
+.super_cool_img{
+    position: absolute;
+    width: 37.6875rem;
+    bottom: -6.8125rem;
+    left: 4.75rem;
+    z-index: 3;
 }
 
 .border {
