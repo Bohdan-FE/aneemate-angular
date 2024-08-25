@@ -21,8 +21,8 @@ export class ButtonComponent implements OnInit {
 
   setCurrentStyles() {
     this.currentStyles = {
-      'width': this.width || '183.6px',
-      'height': this.height || '38px',
+      'width': this.width || '11.475rem',
+      'height': this.height || '2.40625rem',
     };
   }
 }
